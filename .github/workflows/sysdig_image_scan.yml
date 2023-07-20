@@ -3,7 +3,7 @@ env:
     REGISTRY_HOST: "ghcr.io/pawanjitghatora"
     IMAGE_NAME: "dotnet-example-api"
     IMAGE_TAG: "main"
-    DOCKERFILE_CONTEXT: ""
+    DOCKERFILE_CONTEXT: "."
   
 name: Sysdig Container build, scan and push
 
