@@ -1,9 +1,9 @@
 env:
     SYSDIG_SECURE_ENDPOINT: "https://eu1.app.sysdig.com"
-    REGISTRY_HOST: "ghcr.io"
+    REGISTRY_HOST: "ghcr.io/pawanjitghatora"
     IMAGE_NAME: "dotnet-example-api"
     IMAGE_TAG: "main"
-    DOCKERFILE_CONTEXT: "."
+    DOCKERFILE_CONTEXT: ""
   
 name: Sysdig Container build, scan and push
 
