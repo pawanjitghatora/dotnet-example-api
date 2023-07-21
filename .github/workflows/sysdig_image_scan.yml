@@ -58,7 +58,7 @@ jobs:
           --console-log \
           --dbpath=${GITHUB_WORKSPACE}/cache/db/ \
           --cachepath=${GITHUB_WORKSPACE}/cache/scanner-cache/
-          --detailed-policies-eval redis || true
+          --detailed-policies-eval
 
     -  name: Login to the registry
        uses: docker/login-action@v2
