@@ -57,7 +57,7 @@ jobs:
           docker://${REGISTRY_HOST}/${IMAGE_NAME}:${IMAGE_TAG} \
           --console-log \
           --dbpath=${GITHUB_WORKSPACE}/cache/db/ \
-          --cachepath=${GITHUB_WORKSPACE}/cache/scanner-cache/
+          --cachepath=${GITHUB_WORKSPACE}/cache/scanner-cache/ \
           --detailed-policies-eval redis || true
 
     -  name: Login to the registry
