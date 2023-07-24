@@ -1,3 +1,5 @@
+name: Lacework-ShiftLeft-Scans
+
 on: [push, workflow_dispatch]
 
 jobs:
