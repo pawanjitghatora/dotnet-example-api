@@ -17,7 +17,7 @@ jobs:
           LW_ACCOUNT_NAME: ${{ secrets.LW_ACCOUNT_NAME }} 
           LW_ACCESS_TOKEN: ${{ secrets.LW_ACCESS_TOKEN }}
           SAVE_BUILD_REPORT: true
-          image_name: pawanjitghatora/dotnet-example-api
+          image_name: dotnet-example-api
           image_tag: main
           BUILD_REPORT_FILE_NAME: report.html
           FAIL_BUILD: true
