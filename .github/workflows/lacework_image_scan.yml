@@ -1,4 +1,3 @@
-name: lacework_image_scan
 on: [push, workflow_dispatch]
 
 jobs:
@@ -17,7 +16,7 @@ jobs:
           LW_ACCOUNT_NAME: ${{ secrets.LW_ACCOUNT_NAME }} 
           LW_ACCESS_TOKEN: ${{ secrets.LW_ACCESS_TOKEN }}
           SAVE_BUILD_REPORT: true
-          image_name: pawanjitghatora/dotnet-example-api
+          image_name: ghcr.io/pawanjitghatora/dotnet-example-api
           image_tag: main
           BUILD_REPORT_FILE_NAME: report.html
           FAIL_BUILD: true
