@@ -1,5 +1,5 @@
 name: lacework_image_scan
-on: [push]
+on: [push, workflow_dispatch]
 
 jobs:
   hello_world_job:
