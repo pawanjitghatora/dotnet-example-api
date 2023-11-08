@@ -3,6 +3,7 @@
 name: wiz_image_scan
 
 on: [push]
+workflow_dispatch:
 
 jobs:
   wiz-cli-image-scan:
