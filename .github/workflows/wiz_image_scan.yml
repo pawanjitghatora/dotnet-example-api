@@ -2,8 +2,11 @@
 
 name: wiz_image_scan
 
-on: [push]
-workflow_dispatch:
+#on: [push]
+on:
+  pull_request:
+    types: [opened, reopened, review_requested]
+  workflow_dispatch:
 
 jobs:
   wiz-cli-image-scan:
